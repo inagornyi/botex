@@ -13,6 +13,6 @@ type Order struct {
 	CreatedAt       time.Time `json:"created_at"`
 	Volume          float64   `json:"volume,string"`
 	RemainingVolume float64   `json:"remaining_volume,string"`
-	ExecutedVolume  float64    `json:"executed_volume,string"`
+	ExecutedVolume  float64   `json:"executed_volume,string"`
 	TradesCount     int       `json:"trades_count"`
 }
